@@ -2,10 +2,11 @@
 import './Card.css'
 const Card = ({emoji,heading,detail}) => {
   return (
-      <div className="card">
+      <div  className="card">
           <img src={emoji} alt="" />
           <span>{heading}</span>
-          <span>{detail }</span>
+          <span>{detail}</span>
+          <button className='c-button'>Learn more</button>
     </div>
   )
 }
