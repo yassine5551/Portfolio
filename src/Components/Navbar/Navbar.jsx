@@ -19,7 +19,7 @@ function Navbar() {
                   </ul>
               </div>
               <button className="button n-button">
-                  contact us
+                  Contact Us
               </button>
           </div>
     </div>
