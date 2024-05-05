@@ -14,7 +14,11 @@ const Portfolio = () => {
       <span>Portfolio</span>
 
       {/* slider */}
-      <Swiper>
+          <Swiper
+              spaceBetween={30}
+              slidesPerView={3}
+              grabCursor={true}
+              className="portfolio-slider">
         <SwiperSlide>
           <img src={Sidebar} alt="" />
         </SwiperSlide>
@@ -27,6 +31,7 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={Hoc} alt="" />
         </SwiperSlide>
+        
       </Swiper>
     </div>
   );
