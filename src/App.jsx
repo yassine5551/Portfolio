@@ -1,5 +1,6 @@
 import Experience from "./Components/Experience/Experience";
 import Navbar from "./Components/Navbar/Navbar";
+import Works from "./Components/Work/Works";
 import Intro from "./Components/intro/Intro";
 import Services from "./Components/services/Services";
 import './app.css'
@@ -9,7 +10,8 @@ function App() {
       <Navbar />
       <Intro />
       <Services />
-      <Experience/>
+      <Experience />
+      <Works/>
     </div>
   );
 }
