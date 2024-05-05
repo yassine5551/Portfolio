@@ -20,7 +20,7 @@ function Services() {
         <a href={Resume} target="_blank">
           <button className="button s-button">Download CV</button>
         </a>
-        <div className="blur s-blur" style={{ background: "#ABF1FF94" }}></div>
+        <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* rightside */}
       <div className="cards">
@@ -61,6 +61,8 @@ function Services() {
             detail={"Figma , AdobeXd , Photoshop , Canva ..."}
           />
         </div>
+
+        <div className="blur s-blur2" style={{background:"Var(--purple)"}}></div>
       </div>
     </div>
   );
