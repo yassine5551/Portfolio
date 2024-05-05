@@ -1,3 +1,4 @@
+import Experience from "./Components/Experience/Experience";
 import Navbar from "./Components/Navbar/Navbar";
 import Intro from "./Components/intro/Intro";
 import Services from "./Components/services/Services";
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Intro />
-      <Services/>
+      <Services />
+      <Experience/>
     </div>
   );
 }
