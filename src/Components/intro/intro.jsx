@@ -1,4 +1,4 @@
-import "./intro.css";
+import "./Intro.css";
 
 //images for left side
 import Github from "../../img/github.png";
