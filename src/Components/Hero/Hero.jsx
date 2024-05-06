@@ -1,4 +1,4 @@
-import "./Intro.css";
+import "./Hero.css";
 
 //images for left side
 import Github from "../../img/github.png";
@@ -15,7 +15,7 @@ import Crown from "../../img/crown.png";
 import glassesemoji from "../../img/glassesimoji.png";
 import FloatingDiv from "../floatingDiv/FloatingDiv";
 
-function Intro() {
+function Hero() {
   return (
     <div className="intro">
       <div className="i-left">
@@ -70,4 +70,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default Hero;
