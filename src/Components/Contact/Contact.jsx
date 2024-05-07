@@ -1,9 +1,10 @@
-import React from "react";
+
 import "./Contact.css";
+
 const Contact = () => {
   return (
     <div className="contact-form">
-      <div className="c-left">
+      <div className="w-left">
         <div className="awesome">
           <span>Get in touch</span>
           <span>Contact me</span>
@@ -23,7 +24,7 @@ const Contact = () => {
                   <input type="email" name="user_email" className="user" placeholder="Email" />
                   <textarea name="message" className="user" placeholder="Message"></textarea>
                   <input type="submit" value="send" className="button" />
-                  <div className="blut c-blur1" style={{background: "var(--purple)"}}></div>
+                  <div className="blur c-blur1" style={{background: "var(--purple)"}}></div>
               </form>
           </div>
     </div>
