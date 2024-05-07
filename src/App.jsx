@@ -7,6 +7,7 @@ import Services from "./Components/services/Services";
 import './app.css'
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,8 @@ function App() {
       <Works />
       <Portfolio />
       <Testimonials />
-      <Contact/>
+      <Contact />
+      <Footer/>
     </div>
   );
 }
