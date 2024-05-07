@@ -50,11 +50,11 @@ const Testimonials = () => {
         <span>from me...</span>
         <div
           className="blur t-blur1"
-          style={{ background: "var(--purple" }}
+          style={{ background: "var(--purple)" }}
         ></div>
         <div
           className="blur t-blur2"
-          style={{ background: "var(--skyblue" }}
+          style={{ background: "var(--skyblue)" }}
         ></div>
       </div>
       {/* slider */}
