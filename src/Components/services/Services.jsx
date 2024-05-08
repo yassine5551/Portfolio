@@ -42,7 +42,7 @@ function Services() {
           <Card
             emoji={HeartEmoji}
             heading={"FrameWorks"}
-            detail={"ReactJs, Laravel11 , NodeJs , ExpressJs ..."}
+            detail={"ReactJs, Laravel11 , NodeJs , ExpressJs ... "}
           />
         </motion.div>
         {/* second card */}

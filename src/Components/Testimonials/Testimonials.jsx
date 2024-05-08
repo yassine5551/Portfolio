@@ -14,39 +14,39 @@ const Testimonials = () => {
     {
       img: profilePic1,
       review:
-        "lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor ",
+        "lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor ",
     },
     {
       img: profilePic2,
       review:
-        "lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor ",
+        "lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor ",
     },
     {
       img: profilePic3,
       review:
-        "lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor ",
+        "lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor ",
     },
     {
       img: profilePic4,
       review:
-        "lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor ",
+        "lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor ",
     },
     {
       img: profilePic5,
       review:
-        "lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor ",
+        "lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor ",
     },
     {
       img: profilePic6,
       review:
-        "lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor ",
+        "lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor lorem ipsume dolor ",
     },
   ];
   return (
     <div className="t-wrapper" id= 'Testimonials'>
       <div className="t-heading">
         <span>Client always get</span>
-        <span>Exceptiona Work</span>
+        <span>Exceptional Work </span>
         <span>from me...</span>
         <div
           className="blur t-blur1"

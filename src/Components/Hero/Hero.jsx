@@ -69,10 +69,12 @@ function Hero() {
         initial={{ top: "-4%" , left: "74%" }}
         whileInView={{ left: "68%" }}
         transition={transition}
-        style={{ top: "-4%", left: "68%" }}>
+          style={{ top: "-4%", left: "68%" }}
+        className="floating-div">
           <FloatingDiv image={Crown} txt1="Web" txt2="Developper" />
         </motion.div>
         <motion.div
+          className="floating-div"
         initial={{ top: "18rem" , left: "9rem" }}
         whileInView={{ left: "0rem" }}
         transition={transition}

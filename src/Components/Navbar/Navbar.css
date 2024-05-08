@@ -43,5 +43,14 @@
     width: 140px;
 }
 
+@media screen and (max-width:448px) {
+  .n-list{
+    display: none;
+  }
+  .n-button{
+    display: none;
+  }
+}
+
 
 
