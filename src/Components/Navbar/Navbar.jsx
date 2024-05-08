@@ -13,48 +13,29 @@ function Navbar() {
           <ul style={{ listStyleType: "none" }}>
             <Link
               spy={true}
-              to='Navbar'
+              to="Navbar"
               smooth={true}
               activeClass="activeClass"
             >
               <li>Home</li>
             </Link>
-            <Link
-              spy={true}
-              to='Services'
-              smooth={true}
-              
-            >
+            <Link spy={true} to="Services" smooth={true} duration={1500} offset={-30}>
               <li>Services</li>
             </Link>
-            <Link
-              spy={true}
-              to='Experience'
-              smooth={true}
-              
-            >
+            <Link spy={true} to="Experience" smooth={true} duration={1800}>
               <li>Experience</li>
             </Link>
-            <Link
-              spy={true}
-              to='Portfolio'
-              smooth={true}
-              
-              
-            >
+            <Link spy={true} to="Portfolio" smooth={true} duration={2000}>
               <li>Portfolio</li>
             </Link>
-            <Link
-              spy={true}
-              to='Testimonials'
-              smooth={true}
-              
-            >
+            <Link spy={true} to="Testimonials" smooth={true} duration={2000}>
               <li>Testimonials</li>
             </Link>
           </ul>
         </div>
-        <button className="button n-button">Contact Us</button>
+        <Link spy={true} to="Contact" smooth={true} duration={2000} offset={-50}>
+          <button className="button n-button">Contact Us</button>
+        </Link>
       </div>
     </div>
   );
