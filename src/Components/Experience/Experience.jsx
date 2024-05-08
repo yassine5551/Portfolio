@@ -1,10 +1,5 @@
-
 import './Experience.css'
-import { themeContext } from '../../../context';
-import { useContext } from 'react';
 function Experience() {
-    const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
   return (
       <div className="experience" id='Experience'>
           <div className="achievement">
