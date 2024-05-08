@@ -11,7 +11,7 @@ function Navbar() {
       <div className="n-right">
         <div className="n-list">
           <ul style={{ listStyleType: "none" }}>
-            <Link
+            <Link className="lk"
               spy={true}
               to="Navbar"
               smooth={true}
@@ -19,16 +19,16 @@ function Navbar() {
             >
               <li>Home</li>
             </Link>
-            <Link spy={true} to="Services" smooth={true} duration={1500} offset={-30}>
+            <Link className="lk" spy={true} to="Services" smooth={true} duration={1500} offset={-30}>
               <li>Services</li>
             </Link>
-            <Link spy={true} to="Experience" smooth={true} duration={1800}>
+            <Link className="lk" spy={true} to="Experience" smooth={true} duration={1800}>
               <li>Experience</li>
             </Link>
-            <Link spy={true} to="Portfolio" smooth={true} duration={2000}>
+            <Link className="lk" spy={true} to="Portfolio" smooth={true} duration={2000}>
               <li>Portfolio</li>
             </Link>
-            <Link spy={true} to="Testimonials" smooth={true} duration={2000}>
+            <Link className="lk" spy={true} to="Testimonials" smooth={true} duration={2000}>
               <li>Testimonials</li>
             </Link>
           </ul>

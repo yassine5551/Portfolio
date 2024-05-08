@@ -34,7 +34,7 @@
     margin-right: 4rem;
     cursor: pointer;
 }
-.n-list>ul>li:hover{
+.n-list>ul .lk:hover{
     cursor: pointer;
     color: var(--orange);
 }
@@ -42,4 +42,6 @@
     flex: 2;
     width: 140px;
 }
+
+
 
