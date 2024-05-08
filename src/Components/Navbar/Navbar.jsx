@@ -1,11 +1,11 @@
-
+import Toggle from '../Toggle/Toggle'
 import './Navbar.css'
 function Navbar() {
   return (
       <div className="n-wrapper">
           <div className="n-left">
               <div className='n-name'>Yassine</div>
-              <span>toggle</span>
+              <Toggle/>
           </div>
           <div className="n-right">
               <div className='n-list'>
