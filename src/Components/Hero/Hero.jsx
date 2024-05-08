@@ -17,7 +17,7 @@ import FloatingDiv from "../floatingDiv/FloatingDiv";
 import { themeContext } from "../../../context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
-
+import { Link } from "react-scroll";
 function Hero() {
   const transition = { duration: 2, type: "spring" };
   const theme = useContext(themeContext);
@@ -34,7 +34,10 @@ function Hero() {
           </span>
         </div>
 
+        <Link spy={true} to="Contact" smooth={true} duration={2000} offset={-50}>
         <button className="button i-button">Hire me</button>
+        </Link>
+          
         <div className="i-icons">
           <a href="https://github.com/yassine5551" target="_blank">
             <img src={Github} alt="" />

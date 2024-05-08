@@ -7,6 +7,7 @@ import Facebook from "../../img/Facebook.png";
 import { themeContext } from '../../../context';
 import { useContext } from 'react';
 import { motion } from 'framer-motion'
+import { Link } from "react-scroll";
 const Works = () => {
   const transition = { duration: 3.5, type: "spring" };
 
@@ -28,8 +29,10 @@ const Works = () => {
           <br />
           and for Small Businesses for the past 2 years .
         </span>
-
-        <button className="button s-button">Hire me </button>
+        <Link spy={true} to="Contact" smooth={true} duration={2000} offset={-50}>
+        <button className="button s-button">Hire me</button>
+        </Link>
+        
 
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
