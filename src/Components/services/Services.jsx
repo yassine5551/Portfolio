@@ -6,8 +6,13 @@ import Card from "../Card/Card";
 import Resume from "../../resume/resume.pdf";
 import { themeContext } from '../../../context';
 import { useContext } from 'react';
+import { motion } from 'framer-motion'
+
+
 
 function Services() {
+  const transition = { duration: 1, type: "spring" };
+
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -29,13 +34,17 @@ function Services() {
       {/* rightside */}
       <div className="cards">
         {/* first card */}
-        <div style={{ left: "8rem" }}>
+        <motion.div
+          whileInView={{ left: '8rem' }}
+          initial={{ left: '25rem  ' }}
+          transition={transition}
+          style={{ left: "8rem" }}>
           <Card
             emoji={HeartEmoji}
             heading={"FrameWorks"}
             detail={"ReactJs, Laravel11 , NodeJs , ExpressJs ..."}
           />
-        </div>
+        </motion.div>
         {/* second card */}
         <div style={{ top: "12rem", left: "-6rem" }}>
           <Card
@@ -58,13 +67,17 @@ function Services() {
         </div>
         {/* forth card */}
 
-        <div style={{ top: "12rem", left: "22rem" }}>
+        <motion.div
+        whileInView={{ left: '22rem' }}
+        initial={{ left: '25rem  ' }}
+          transition={transition}
+          style={{ top: "12rem", left: "22rem" }}>
           <Card
             emoji={Humble}
             heading={"Design"}
             detail={"Figma , AdobeXd , Photoshop , Canva ..."}
           />
-        </div>
+        </motion.div>
 
         <div className="blur s-blur2" style={{background:"Var(--purple)"}}></div>
       </div>
