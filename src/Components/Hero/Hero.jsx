@@ -14,13 +14,17 @@ import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassesemoji from "../../img/glassesimoji.png";
 import FloatingDiv from "../floatingDiv/FloatingDiv";
+import { themeContext } from '../../../context';
+import { useContext } from 'react';
 
 function Hero() {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span>Hy! I Am </span>
+          <span style={{color : darkMode? 'white' : ''}}>Hy! I Am </span>
           <span>YASSINE EL KOUJJER</span>
           <span>
             FrontEnd Developper with high level of experience in web designing
