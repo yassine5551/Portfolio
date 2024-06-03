@@ -1,12 +1,13 @@
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Sidebar from "../../img/sidebar.png";
+
 import Ecommerce from "../../img/ecommerce.png";
 import MusicApp from "../../img/musicapp.png";
 import Hoc from "../../img/hoc.png";
-import 'swiper/css'
-import { themeContext } from '../../../context';
-import { useContext } from 'react';
+import restaurantImg from "../../img/restaurant_v1.png"
+import "swiper/css";
+import { themeContext } from "../../../context";
+import { useContext } from "react";
 
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -14,17 +15,20 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="Portfolio">
       {/* heading */}
-      <span style={{color : darkMode? 'white' : ''}}>Recent Projects</span>
+      <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}
-          <Swiper
-              spaceBetween={30}
-              slidesPerView={3}
-              grabCursor={true}
-              className="portfolio-slider">
+      <Swiper
+       
+        spaceBetween={30}
+        slidesPerView={3}
+        grabCursor={true}
+        className="portfolio-slider"
+      >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          
+          <a href="https://restaurant-v1-five.vercel.app/" target="_blank"><img src={restaurantImg} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
@@ -35,7 +39,6 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={Hoc} alt="" />
         </SwiperSlide>
-        
       </Swiper>
     </div>
   );
