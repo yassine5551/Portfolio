@@ -1,7 +1,7 @@
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import Ecommerce from "../../img/ecommerce.png";
+import typing from "../../img/typing.png";
 import MusicApp from "../../img/musicapp.png";
 import Hoc from "../../img/hoc.png";
 import restaurantImg from "../../img/restaurant_v1.png"
@@ -31,7 +31,8 @@ const Portfolio = () => {
           <a href="https://restaurant-v1-five.vercel.app/" target="_blank"><img src={restaurantImg} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a href="https://typing-game-tawny.vercel.app/" target="_blank"><img src={typing} alt="" /></a>
+          
         </SwiperSlide>
         <SwiperSlide>
           <img src={MusicApp} alt="" />
