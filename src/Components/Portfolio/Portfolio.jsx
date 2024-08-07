@@ -2,7 +2,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import typing from "../../img/typing.png";
-import MusicApp from "../../img/musicapp.png";
+import WebAgency from "../../img/web.png";
 import Hoc from "../../img/hoc.png";
 import restaurantImg from "../../img/restaurant_v1.png"
 import "swiper/css";
@@ -35,7 +35,8 @@ const Portfolio = () => {
           
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+        <a href="https://web-agency-delta.vercel.app/" target="_blank" ><img src={WebAgency} alt=""  /></a>
+          
         </SwiperSlide>
         <SwiperSlide>
           <img src={Hoc} alt="" />
