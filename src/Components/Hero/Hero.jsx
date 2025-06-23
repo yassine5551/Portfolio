@@ -53,8 +53,8 @@ function Hero() {
           </a>
         </div>
       </div>
-      <div className="i-right">
-        <img src={Vector1} alt="" />
+      {/* <div className="i-right"> */}
+        {/* <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
         <img src={boy} alt="" />
         <motion.img
@@ -82,7 +82,7 @@ function Hero() {
           <FloatingDiv image={thumbup} txt1="Best Design" txt2="Awards" />
         </motion.div>
         {/* blur divs */}
-        <div className="blur" style={{ background: "rgb(238 210 255" }}></div>
+        {/* <div className="blur" style={{ background: "rgb(238 210 255" }}></div>
         <div
           className="blur"
           style={{
@@ -92,8 +92,8 @@ function Hero() {
             height: "11rem",
             left: "-9rem",
           }}
-        ></div>
-      </div>
+        ></div> */} 
+      {/* </div> */}
     </div>
   );
 }

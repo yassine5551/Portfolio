@@ -17,17 +17,16 @@ const Works = () => {
     <div className="works">
       {/* leftSide */}
       <div className="awesome">
-        <span style={{color : darkMode? 'white' : ''}}>Works for All these</span>
-        <span>Brands & Clients</span>
+        <span style={{color : darkMode? 'white' : ''}}>Looking to <br />
+        Works for All these</span>
+        <span>Brands</span>
         <span>
           I worked for Vala blue Company .
           <br />
-          And As A Freelancer I have been developing
+          And I have been developing
           <br />
           websites and apps
-          for Restaurants
-          <br />
-          and for Small Businesses for the past 2 years .
+           for the past 2 years .
         </span>
         <Link spy={true} to="Contact" smooth={true} duration={2000} offset={-50}>
         <button className="button s-button">Hire me</button>
